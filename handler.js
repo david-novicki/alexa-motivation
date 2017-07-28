@@ -10,7 +10,7 @@ module.exports.motivation = (event, context, callback) => {
         type: 'PlainText',
         text: insults[index],
       },
-      shouldEndSession: false,
+      shouldEndSession: true,
     },
   };
 
